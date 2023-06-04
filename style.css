@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+#img-container {
+  text-align: center;
+}
+
+#img-container img {
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgb(174, 174, 247, 0.3);
+  background-color: lightgray;
+}
+.btn {
+  background-color: slateblue;
+  border: none;
+  padding: 10px 20px;
+  color: aliceblue;
+  border-radius: 5px;
+  box-shadow: 0 4px 7px rgba(13, 13, 13, 0.3);
+  cursor: pointer;
+  width: 150px;
+  margin: auto;
+}
+
+.btn:hover {
+  opacity: 90%;
+}
